@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+   <title>Adivinhe a Palavra</title>
+
+   <script src="game_login.js"></script>
+
+   <link rel="stylesheet" type="text/css" href="game.css">
+ </head>
+
+ <body>
+
+   <h3 id="p1_score">p1_score:0</h3>
+   <br>
+   <h3 id="p1_score"> p2_Score:0</h3>
+
+   <center>
+    <br>
+    <h1 id="questT1"> Questionário de Matemática!</h1>
+    <br>
+    <h2 id="QuestionTurn">Turno de Pergunta - </h2>
+    <h2 id="AnswerTurn">Turno de Resposta - </h2>
+
+      <div id="output" class="col-lg-6"> </div>
+    <div>
+        <br><br>
+        <h3> Número 1</h3>
+     <input type="text" id="Numero1" class="form-control col-log-6" placeholder="Número 1">
+     <br><br>
+     <h3> Número 2</h3>
+     <input type="text" id="Numero2" class="form-control col-log-6" placeholder="Número 2">
+     
+     </div>
+     <br>
+     <button id="checkBtn" class="btn btn-primary" onclick="send()">Enviar</button>
+   </center>
+
+ </body>
+
+</html>
